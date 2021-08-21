@@ -6,3 +6,4 @@ cert
 minecraftCert
 package-lock.json
 *.log
+static

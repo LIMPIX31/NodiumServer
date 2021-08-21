@@ -1,0 +1,14 @@
+{
+  "libraries": "3252bc3778dc162d940fa650b200e5fc83f786a0",
+  "mods": [
+    {
+      "name": "FabricAPI.jar",
+      "hash": "daad987077a6c07ccb1da6fc6e1cf335cfd89ba0"
+    },
+    {
+      "name": "plasmovoice-fabric.jar",
+      "hash": "097580615f99b222836c6c2b6e2b8c9bf20a789a"
+    }
+  ],
+  "versions": "2f25c568ab29a2bcdf1d4d159412a2a0593679b8"
+}

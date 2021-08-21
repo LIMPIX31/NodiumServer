@@ -1,0 +1,18 @@
+{
+  "launcher": {
+    "minecraftPath": "C:\\Users\\DDK\\AppData\\Roaming\\.nodium",
+    "javaPath": "",
+    "allocated": 2048,
+    "resolution": {
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "clientsInstalled": {
+    "test": {
+      "name": "╨в╨╡╤Б╤В╨╛╨▓╤Л╨╣ ╨║╨╗╨╕╨╡╨╜╤В",
+      "versionCode": 0,
+      "version": "1.0.0"
+    }
+  }
+}

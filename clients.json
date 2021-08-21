@@ -1,0 +1,22 @@
+{
+  "clients": {
+    "test": {
+      "name": "Тестовый клиент",
+      "versionCode": 0,
+      "version": "1.17.1/fabric-loader-0.11.6-1.17.1",
+      "clientDownloadUrl": "https://www.dropbox.com/s/ke91sra7pibp7ht/TestClient.zip?dl=1",
+      "hash": "test_hash",
+      "description": "Тестовый сервер, а что ещё сказать, зайти на него может только админ",
+      "size": {
+        "zipped": -1,
+        "unzipped": 111090559,
+        "withAssets": 456209623
+      },
+      "deletemap": [
+        "mods",
+        "versions",
+        "libraries"
+      ]
+    }
+  }
+}

@@ -4,7 +4,6 @@ export const mailService = {
   transporter: nodemailer.createTransport({
     service: 'gmail',
     auth: {
-      type: 'login',
       user: 'mcb.mcserver@gmail.com',
       pass: 'MCBmcServer278945'
     },

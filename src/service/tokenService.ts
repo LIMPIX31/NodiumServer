@@ -1,4 +1,4 @@
-import jwt, {JwtPayload} from 'jsonwebtoken'
+import jwt from 'jsonwebtoken'
 import {ITokenDocument, TokenModel} from "../models/token"
 import {AuthDTOType} from "../dtos/authDTO";
 
@@ -21,9 +21,9 @@ export const tokenService = {
     }
   },
 
-  validateRefreshToken(token): JwtPayload | null{
+  validateRefreshToken(token){
     try{
-      const userData: JwtPayload = jwt.verify(token,process.env.JWT_REFRESH_SECRET || '') as JwtPayload
+      const userData = jwt.verify(token,process.env.JWT_REFRESH_SECRET || '')
       return userData
     }catch (e){
       return null

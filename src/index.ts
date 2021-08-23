@@ -66,7 +66,7 @@ app.use(errorMiddleware)
 export const minecraftPrivateKey = fs.readFileSync(path.join(__dirname,'../minecraftCert','private.pem')).toString()
 
 export const hashsums = {
-  test: require('./hashsums/test_hash.json')
+  vanilla: require('./hashsums/vanilla_hash.json')
 }
 
 

@@ -94,7 +94,7 @@ export const authModuleService = {
       username,
       password: hashPassword,
       discord,
-      avatar: '',
+      avatar: false,
       email: {
         email,
         verificationCode: activationCode,
@@ -105,7 +105,7 @@ export const authModuleService = {
       roles: [UserRole.default],
       gameProfile: {
         nickname,
-        uuid: UUIDv4(),
+        uuid: UUIDv4().replaceAll('-',''),
         nicknameChangeTime: createdTime
       }
     })
@@ -160,7 +160,7 @@ export const authModuleService = {
     if (!refreshToken) {
       throw ApiError.UnauthorizedError()
     }
-    const userData = tokenService.validateRefreshToken(refreshToken)
+    const userData:any = tokenService.validateRefreshToken(refreshToken)
     const tokenFromDb = await tokenService.findToken(refreshToken)
     if (!userData || !tokenFromDb) {
       throw ApiError.UnauthorizedError()

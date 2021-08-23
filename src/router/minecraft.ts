@@ -14,8 +14,23 @@ minecraftRouter.get('/', (req, res, next) => {
     meta: {},
     skinDomains: [
       "localhost",
+      "193.106.98.208"
     ],
-    signaturePublickey:`-----BEGIN PUBLIC KEY-----\nMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDYnBI60iS1NBCcIHGzksqScTwI\nkSX+p3axYRAE3BhB7J31XdudtcA4BhF2D/y0agaDinoailEqdgqoIdGVuVVqIyQm\n7FHBwQiPzhlSPbVGJki4f6j/QzcNX0WRLAARRFPZ3Ohbv6BVtuBto7BJtfjP8fTh\nKWc3KtY4faxmWbSCEwIDAQAB\n-----END PUBLIC KEY-----\n`
+    signaturePublickey:`-----BEGIN PUBLIC KEY-----
+MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA11KNb0LqhgUy17EnGRRT
+BHSRc7/DRYt6QfNdLI9EdG04lPqt2jIhL5uW4r7zMw7lzaQdtcUetJ7TOY4MVjcG
+OUmwc+kkmE5rTON8GCiKxphO+2n9v62P0IHAzYeWTWg7/5Ju6jb64SG31fL58Tn9
+dk0vy8qYAUizE63CLUno8UekqqhdwKZ1bEKpI+8zMZ/dA0Z27tSDDGzZx991lHW7
+7z5FrEZNvqJ+I+bvCRT6jA6HLYJ/EZN5fPrXTIufOP7HYlqCa8eVPaHYBsXEkJzB
+0fo20YkOtskEpDRvey3aVqwoeFNSQAkPYQsnoZoLJCbG01kxck31AazTg2Wp55/C
+gWT4Mhl7a5NOMUSnn/eMLlAd0bOl39PTH7rt2eMnFhU251kbd68e4tU6yQIKnpon
+R+DyCBDyQ6F1ccl7ywQixIQrVP9cdfG6V8UgvGdblYdClckc48W3xijvCNoWwBc2
+q5hsv+PrXeDk8bEIMcrnO7Tv93z5tnZmsN+4Wvd+fO42a4CR5hT3KNQwpnQBnIrb
+GJhoSe/pWYmQV04sBpNYpgDkPftX1GeuFZcpJlnCpw7rKHNLqJ/jmuLxcq/Jo0UB
+jz20Loeej+HcFfAEDHeLDr3F1bp11Wh8VKl3NVSg8bP7Mdp9K4pOoilTnNDkBels
+DH0ar2IaNyoWAbi2n8NdC+cCAwEAAQ==
+-----END PUBLIC KEY-----
+`
   })
 })
 
